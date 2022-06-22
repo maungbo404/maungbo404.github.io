@@ -52,32 +52,32 @@ function result() {
     else if (html >= 81 || css >= 81 || js >= 81) {
         if (html >= 81 && css >= 81 && js >= 81) {
             let honor = 'All Subjects';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
         else if (html >= 81 && css >= 81) {
             let honor = 'HTML and CSS';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
         else if (html >= 81 && js >= 81) {
             let honor = 'HTML and JavaScript';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
         else if (css >= 81 && js >= 81) {
             let honor = 'CSS and JavaScript';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
         // one sub
         else if (html >= 81) {
             let honor = 'HTML';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
         else if (css >= 81) {
             let honor = 'CSS';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
         else if (js >= 81) {
             let honor = 'JavaScript';
-            document.write('<h1>' + name + 'is Exam Pass with ' + honor + ' Honor </h1>')
+            document.write('<h1>' + name + ' is Exam Pass with ' + honor + ' Honor </h1>')
         }
     }
 
